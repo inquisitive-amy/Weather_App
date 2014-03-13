@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Widget</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="weather_widget">
+  <p class="date_time">{ Date and Time }</p>
+    <div class="city_name">{ City Name }</div>
+      <div class="weather_string">{ Weather Text}</div>
+      <p class="temp"></p>
+      <p class="feelsLike"></p>
+      
+      <form action="" class="weatherInput">
+      <label for="city">Try a Different City</label>
+        <input type="text" name="city">
+        <input type="submit" value = "show me the weather!">
+      </form>
+
+    </div><!-- weather_widget  -->
+</div><!-- container -->
+
+  <!-- Load Javascript and link files -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="weather-app.js"></script>
+</body>
+</html>
+
